@@ -13,12 +13,14 @@
     border-radius: 3%;
     font-family: 'Josefin Sans', sans-serif;
     background-color: #fff;
+    text-align: center;
   }
 
   .btn{
     padding: 5px;
     font-size: 80%;
     margin-left: 60px;
+    text-align: center;
   }
 
   .btn-keys{padding: 15px;}
