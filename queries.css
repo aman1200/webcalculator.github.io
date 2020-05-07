@@ -6,21 +6,19 @@
   .calculator{
     border: 2px solid #fff;
     margin-top: 40px;
-    margin-left: 130px;
-    margin-right: 130px;
+    margin-left: 70px;
+    margin-right: 70px;
     padding: 6px;
     padding-top: 4px;
     border-radius: 3%;
     font-family: 'Josefin Sans', sans-serif;
     background-color: #fff;
-    text-align: center;
   }
 
   .btn{
     padding: 5px;
     font-size: 80%;
-    margin-left: 60px;
-    text-align: center;
+    margin-left: 45px;
   }
 
   .btn-keys{padding: 15px;}
