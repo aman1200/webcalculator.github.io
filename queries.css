@@ -5,7 +5,9 @@
 
   .calculator{
     border: 2px solid #fff;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 6px;
     padding-top: 4px;
     border-radius: 3%;
@@ -16,6 +18,7 @@
   .btn{
     padding: 5px;
     font-size: 80%;
+    margin-left: 10px;
   }
 
   .btn-keys{padding: 15px;}
@@ -27,6 +30,39 @@
     border: 1px solid #141313;
     border-radius: 5%;
     padding:30px 10px;
+    font-size: 100%;
+    background-color: #141313;
+    color:#FCFCFC;
+  }
+}
+@media only screen and (max-width: 400px){
+  h2{font-size: 200%;}
+
+  .calculator{
+    border: 2px solid #fff;
+    margin-top: 20px;
+    padding: 6px;
+    padding-top: 4px;
+    border-radius: 3%;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #fff;
+  }
+
+  .btn{
+    padding: 5px;
+    font-size: 80%;
+    margin-left: 10px;
+  }
+
+  .btn-keys{padding: 15px;}
+
+  .value{
+    margin-bottom: 8px;
+    margin-left: 0;
+    margin-right: 0;
+    border: 1px solid #141313;
+    border-radius: 5%;
+    padding:20px 10px;
     font-size: 100%;
     background-color: #141313;
     color:#FCFCFC;
