@@ -1,0 +1,82 @@
+
+h2 {
+  text-align: center;
+  font-size: 300%;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 100;
+  font-family: 'Raleway', sans-serif;
+  color:#60F733;
+}
+
+body{background-color: #FE6D6D;}
+
+.calculator{
+  border: 2px solid #fff;
+  margin-top: 40px;
+  margin-left: 550px;
+  margin-right: 550px;
+  padding: 10px;
+  padding-top: 15px;
+  border-radius: 3%;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #fff;
+}
+
+.value{
+  margin-bottom: 8px;
+  margin-left: 0;
+  margin-right: 0;
+  border: 1px solid #141313;
+  border-radius: 5%;
+  padding:40px 10px;
+  font-size: 150%;
+  background-color: #141313;
+  color:#FCFCFC;
+}
+
+
+.btn{
+  margin-left: 60px;
+  padding: 10px;
+}
+
+.btn-keys{
+  padding: 21px;
+  margin-bottom: 5px;
+  border-radius: 20%;
+  border: none;
+  text-align: center;
+  transition: background-color 0.3s,color 0.2s;
+  font-size: 200%;
+  background-color:#E8E7E7;
+}
+
+.btn-keys:hover{
+  background-color: #1984EC;
+  color: #fff;
+}
+
+.long-key{
+  padding: 15px;
+  padding-left: 70px;
+}
+
+.operator:hover{
+  color:#fff;
+  background-color: #ff8c1a;
+}
+
+.delete-key:hover{
+  background-color: #F40606;
+  color:#fff;
+}
+
+.reset-key:hover{
+  background-color: #06F46A;
+  color:#fff;
+}
+
+.compute{
+  text-align-last: center;
+}
